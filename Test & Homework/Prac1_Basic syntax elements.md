@@ -145,7 +145,13 @@ print(a)
 
 ```python
 
-
+TempStr = input()
+if TempStr[0] in ["F","f"]:
+    C = (eval(TempStr[1:]) - 32)/1.8
+    print("C{:.2f}".format(C))
+elif TempStr[0] in ["C","c"]:
+    F = (1.8*eval(TempStr[1:]) + 32)
+    print("F{:.2f}".format(F))
 
 ```
 ## 5 货币转换 I
@@ -178,6 +184,12 @@ print(a)
 
 ```python
 
-
+MoneyStr = input()
+if MoneyStr[0] in ["R"]:
+    USD = eval(MoneyStr[3:]) / 6.78
+    print("USB{:.2f}".format(USD))
+elif MoneyStr[0] in ["U"]:
+    RMB = 6.78 * eval(MoneyStr[3:]) 
+    print("RMB{:.2f}".format(RMB))
 
 ```
