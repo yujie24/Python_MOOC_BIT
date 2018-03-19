@@ -1,6 +1,6 @@
 # 练习1：基本语法元素 Basic syntax elements
 
-## 1 Hello word I
+## 1 Hello World I
 
 ### 描述
 
@@ -24,7 +24,7 @@ print("Hello World")
 
 ```
 
-### 2 HEllo word II
+### 2 Hello World II
 
 ### 3 N的多次方
 
