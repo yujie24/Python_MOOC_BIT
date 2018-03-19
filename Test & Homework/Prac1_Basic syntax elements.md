@@ -1,17 +1,30 @@
-## 练习1：基本语法元素 Basic syntax elements
+# 练习1：基本语法元素 Basic syntax elements
 
-### 1 Hello word I
+## 1 Hello World I
 
-输出
+### 描述
 
-```python
+这是学习每种程序设计语言的第一个实例。
+
+输出Hello World,注意大小写。
+
+### 输入
+
+无
+
+### 输出
 
 Hello word
 
+### 代码
+
+```python
+
+print("Hello World")
+
 ```
 
-
-### 2 HEllo word II
+### 2 Hello World II
 
 ### 3 N的多次方
 
