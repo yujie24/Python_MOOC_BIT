@@ -1,2 +1,2 @@
-a = list("Hello World")
-print(a)
+a = list("Hello World"):
+    print(a)
