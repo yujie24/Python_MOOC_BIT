@@ -1,5 +1,5 @@
 MoneyStr = input()
-if MoneyStr[0] in ["R"]:
+if MoneyStr[0] in ["R"]: #中括号，取字符串里某一个元素
     USD = eval(MoneyStr[3:]) / 6.78
     print("USD{:.2f}".format(USD))
 elif MoneyStr[0] in ["U"]:
